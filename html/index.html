@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEHYD</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar"> <!-- <div class="logo">GEHYD</div> -->
+        <ul class="nav-links">
+            <li><a href="#intro">Intro Page</a></li>
+            <li><a href="#website">Website Layout</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#cards">Card Layout</a></li>
+            <li><a href="#media">Media Objects</a></li>
+        </ul>
+    </nav> <!--1. For Intro. Page -->
+    <section id="intro" class="intro">
+        <h1>Welcome to Web Layouts</h1>
+        <p>Master the art of modern HTML & CSS layouts</p> <a href="#website" class="btn">Explore Layouts</a>
+    </section> <!--2. For Website Layout -->
+    <section id="website" class="website-layout">
+        <h1 class="sample-website-heading">Sample Website Layout</h1>
+        <div class="site-header">
+            <div class="container">
+                <div class="logo">MySite</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="layout-grid">
+                <div class="main-content">
+                    <h2>Main Content Area</h2>
+                    <p>This is the primary content area where your main information goes. This layout uses CSS Grid to
+                        create a two-column design with a main content area and a sidebar.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris.</p>
+                    <h3>Subheading</h3>
+                    <p>More content can go here. This flexible layout adapts to different screen sizes using responsive
+                        design principles.</p>
+                </div>
+                <aside class="sidebar">
+                    <h3>Sidebar</h3>
+                    <ul>
+                        <li>Recent Posts</li>
+                        <li>Categories</li>
+                        <li>Archive</li>
+                        <li>Tags</li>
+                    </ul>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>Documentation</li>
+                        <li>Tutorials</li>
+                        <li>Community</li>
+                        <li>Support</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <p>&copy; 2024 MySite. All rights reserved.</p>
+        </footer>
+    </section> <!-- 3. PHOTO GALLERY LAYOUT -->
+    <section id="gallery">
+        <div class="container">
+            <h1>Photo Gallery Layout</h1>
+            <p>Responsive grid layout that adapts to screen size</p>
+            <div class="photo-gallery">
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500"
+                        alt="Mountain">
+                    <div class="gallery-overlay">
+                        <h3>Mountain Peak</h3>
+                        <p>Breathtaking views</p>
+                    </div>
+                </div>
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500"
+                        alt="Beach">
+                    <div class="gallery-overlay">
+                        <h3>Beach Paradise</h3>
+                        <p>Tropical escape</p>
+                    </div>
+                </div>
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?w=500"
+                        alt="City">
+                    <div class="gallery-overlay">
+                        <h3>City Lights</h3>
+                        <p>Urban landscape</p>
+                    </div>
+                </div>
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500"
+                        alt="Forest">
+                    <div class="gallery-overlay">
+                        <h3>Forest Trail</h3>
+                        <p>Nature walk</p>
+                    </div>
+                </div>
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500"
+                        alt="Lake">
+                    <div class="gallery-overlay">
+                        <h3>Calm Lake</h3>
+                        <p>Peaceful waters</p>
+                    </div>
+                </div>
+                <div class="gallery-item"> <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500"
+                        alt="Desert">
+                    <div class="gallery-overlay">
+                        <h3>Desert Sunset</h3>
+                        <p>Golden hour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- 4. LIST CARD LAYOUTS -->
+    <section id="cards">
+        <div class="container">
+            <h1>List Card Layouts</h1>
+            <p>Modern card-based design for showcasing content</p>
+            <div class="card-list">
+                <article class="card"> <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500"
+                        class="card-image" alt="Web Development">
+                    <div class="card-content">
+                        <h3 class="card-title">Web Development</h3>
+                        <p class="card-text">Learn modern web development with HTML, CSS, and JavaScript. Build
+                            responsive websites from scratch.</p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+                <article class="card"> <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500"
+                        class="card-image" alt="Programming">
+                    <div class="card-content">
+                        <h3 class="card-title">Programming</h3>
+                        <p class="card-text">Master programming fundamentals and advanced concepts. Start your coding
+                            journey today.</p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+                <article class="card"> <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500"
+                        class="card-image" alt="Data Science">
+                    <div class="card-content">
+                        <h3 class="card-title">Data Science</h3>
+                        <p class="card-text">Analyze data, build models, and extract insights. Become a data-driven
+                            professional.</p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+                <article class="card"> <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=500"
+                        class="card-image" alt="UI/UX Design">
+                    <div class="card-content">
+                        <h3 class="card-title">UI/UX Design</h3>
+                        <p class="card-text">Create beautiful and intuitive user interfaces. Design experiences that
+                            users love.</p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+                <article class="card"> <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500"
+                        class="card-image" alt="Digital Marketing">
+                    <div class="card-content">
+                        <h3 class="card-title">Digital Marketing</h3>
+                        <p class="card-text">Grow your online presence with SEO, social media, and content marketing
+                            strategies.</p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+                <article class="card"> <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500"
+                        class="card-image" alt="Mobile Development">
+                    <div class="card-content">
+                        <h3 class="card-title">Mobile Development</h3>
+                        <p class="card-text">Build native and cross-platform mobile apps for iOS and Android devices.
+                        </p>
+                    </div>
+                    <div class="card-footer"> <a href="#" class="card-btn">Learn More</a> </div>
+                </article>
+            </div>
+        </div>
+    </section> <!-- 5. MEDIA OBJECT LAYOUT -->
+    <section id="media">
+        <div class="container">
+            <h1>Media Object Layout</h1>
+            <p>Perfect for comments, reviews, social posts, and user profiles</p>
+            <div class="media-object-list">
+                <article class="media-object">
+                    <div class="media-left"> <img src="https://i.pravatar.cc/100?img=1" alt="User 1"> </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Sarah Johnson</h3>
+                        <p class="media-meta">Posted 2 hours ago</p>
+                        <p class="media-text">This is an excellent example of a media object layout! It's perfect for
+                            displaying user-generated content, comments, reviews, or social media posts. The image on
+                            the left creates a nice visual anchor while the content flows naturally beside it.</p>
+                    </div>
+                </article>
+                <article class="media-object">
+                    <div class="media-left"> <img src="https://i.pravatar.cc/100?img=2" alt="User 2"> </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Michael Chen</h3>
+                        <p class="media-meta">Posted 5 hours ago</p>
+                        <p class="media-text">The media object pattern is one of the most versatile layout patterns in
+                            web design. It's been used successfully for years across countless websites and
+                            applications. The flexibility it provides is unmatched!</p>
+                    </div>
+                </article>
+                <article class="media-object">
+                    <div class="media-left"> <img src="https://i.pravatar.cc/100?img=3" alt="User 3"> </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Emily Rodriguez</h3>
+                        <p class="media-meta">Posted 1 day ago</p>
+                        <p class="media-text">I love how clean and organized this layout looks! The circular profile
+                            images add a nice touch, and the content is easy to read. Great for building social features
+                            or comment sections.</p>
+                    </div>
+                </article>
+                <article class="media-object">
+                    <div class="media-left"> <img src="https://i.pravatar.cc/100?img=4" alt="User 4"> </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">David Park</h3>
+                        <p class="media-meta">Posted 2 days ago</p>
+                        <p class="media-text">Media objects work wonderfully for product reviews, testimonials, blog
+                            comments, and user profiles. The consistent structure makes it easy for users to scan
+                            through content quickly while maintaining visual interest.</p>
+                    </div>
+                </article>
+                <article class="media-object">
+                    <div class="media-left"> <img src="https://i.pravatar.cc/100?img=5" alt="User 5"> </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Jessica Taylor</h3>
+                        <p class="media-meta">Posted 3 days ago</p>
+                        <p class="media-text">The responsive design of this layout is impressive! On mobile devices, the
+                            media objects stack nicely, and on larger screens, they maintain their side-by-side
+                            structure. A perfect example of modern web design principles.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
