@@ -51,3 +51,7 @@ GEHYD-Frontend/
 ## Website Preview
 
 ![GEHYD Website Preview](assets/preview01.png)
+![GEHYD Website Preview](assets/preview02.png)
+![GEHYD Website Preview](assets/preview03.png)
+![GEHYD Website Preview](assets/preview04.png)
+![GEHYD Website Preview](assets/preview05.png)
