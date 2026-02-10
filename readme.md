@@ -23,3 +23,28 @@
 
 - External CSS styling
 
+## Tech Stack
+
+| Technology | Usage                    |
+| ---------- | ------------------------ |
+| HTML5      | Page structure & content |
+| CSS3       | Styling & layouts        |
+| Unsplash   | Demo images              |
+| Pravatar   | User avatar images       |
+
+
+
+## Project Structure
+```
+GEHYD-Frontend/
+│
+├── html/
+│   └── index.html
+│
+├── css/
+│   └── style.css
+│
+└── README.md
+```
+
+
