@@ -48,3 +48,6 @@ GEHYD-Frontend/
 ```
 
 
+## Website Preview
+
+![GEHYD Website Preview](assets/preview01.png)
