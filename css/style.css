@@ -477,3 +477,129 @@ span {
         height: 80px;
     }
 }
+
+
+/* ===== Global Auth Background ===== */
+body.auth {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #5b3fa7, #4fd1c5);
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Card ===== */
+.auth-wrapper {
+  width: 350px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  backdrop-filter: blur(6px);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* ===== Heading ===== */
+.auth-wrapper h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+/* ===== Form ===== */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.auth-form input:focus {
+  box-shadow: 0 0 8px rgba(79, 209, 197, 0.7);
+}
+
+/* ===== Options ===== */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.options a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.options a:hover {
+  color: #4fd1c5;
+}
+
+/* ===== Terms ===== */
+.terms {
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+/* ===== Button ===== */
+button {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #4fd1c5;
+  color: #003;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #38b2ac;
+  transform: translateY(-2px);
+}
+
+/* ===== Links ===== */
+.auth-wrapper p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-wrapper a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.auth-wrapper a:hover {
+  color: #4fd1c5;
+}
+
+/* ===== Back Button ===== */
+.back-btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
