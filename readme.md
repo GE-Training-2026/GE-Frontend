@@ -39,12 +39,32 @@
 GEHYD-Frontend/
 │
 ├── html/
-│   └── index.html
+│   ├── index.html
+│   ├── signin.html
+│   ├── signup.html
+│   └── components/
+│       ├── navbar.html
+│       ├── intro.html
+│       ├── website-layout.html
+│       ├── gallery.html
+│       ├── cards.html
+│       └── media.html
 │
 ├── css/
 │   └── style.css
 │
+├── js/
+│   └── include.js
+│
+├── assets/
+│   ├── preview01.png
+│   ├── preview02.png
+│   ├── preview03.png
+│   ├── preview04.png
+│   └── preview05.png
+│
 └── README.md
+
 ```
 
 
@@ -55,3 +75,5 @@ GEHYD-Frontend/
 ![GEHYD Website Preview](assets/preview03.png)
 ![GEHYD Website Preview](assets/preview04.png)
 ![GEHYD Website Preview](assets/preview05.png)
+![GEHYD Website Preview](assets/preview06.png)
+![GEHYD Website Preview](assets/preview07.png)
